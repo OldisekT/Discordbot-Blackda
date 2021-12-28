@@ -21,7 +21,7 @@ copyfile(".env", "lib/.env") #Copies the env file to the lib directory
 from dotenv import load_dotenv
 load_dotenv() #Loads the environment variable
 
-token = os.environ['TOKEN'] #Loads the bot token
+token = os.environ['ODIyNDczMDU5NzI5NDA4MDQx.YFSxug.tGY-z8g0egzm0wKToO7kpLM1oZI'] #Loads the bot token
 client = discord.Client() #Sets the client for Discord
 
 @client.event
